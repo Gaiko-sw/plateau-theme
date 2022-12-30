@@ -1,0 +1,23 @@
+{
+	"name": "Plateau",
+	"displayName": "Plateau",
+	"description": "A gentle light theme for a bright office",
+	"version": "0.0.5",
+	"publisher": "gaiko-sw",
+	"repository": "https://github.com/gaiko-sw/plateau",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Plateau Light",
+				"uiTheme": "vs",
+				"path": "./plateau-color-theme.json"
+			}
+		]
+	}
+}
